@@ -1507,7 +1507,7 @@ a:hover, a:active {
     content: '';
     position: absolute;
     z-index: 1;
-    background: url(LS Personal/img/content/services/arrow.png) no-repeat center center;
+    background: url(../img/images/arrow.png) no-repeat center center;
     width: 217px;
     height: 210px;
     top: -20px;
