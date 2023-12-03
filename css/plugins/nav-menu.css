@@ -9,6 +9,10 @@
 
 /* ===================================
 	Default Header style
+
+	Leons HEX: #52BB7C -> green
+	Aricons HEX: 2c7ae7 -> blue
+
 ====================================== */
 
 header{ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); transition: all 0.5s ease 0s; position: relative; z-index: 99999; }
@@ -27,12 +31,12 @@ header{ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); transition: all 0.5s ease 0s;
 .navbar-nav > li{ margin-left: 10px; float: left; }
 .navbar-nav > li.has-sub{ padding-right: 13px; }
 .navbar-nav > li > a{ position: relative; display: block; font-size: 13px; font-weight: 600; padding: 21px 0.5rem; color: #232323; letter-spacing: 0.5px; text-transform: uppercase; -webkit-transition-duration: 500ms; -o-transition-duration: 500ms; transition-duration: 500ms; }
-.navbar-nav li.current > a{ color: #2c7ae7; }
+.navbar-nav li.current > a{ color: #52BB7C; }
 .navbar-nav > li.has-sub > a:hover{ color: #000; }
 .navbar > ul > li.has-sub > a:hover:after{ border-color: transparent #000 #000 transparent; }
 .navbar > ul > li.has-sub > a:after{ position: absolute; top: 30px; right: -8px; content: ""; border-color: transparent #232323 #232323 transparent; border-style: solid; border-width: 0 1px 1px 0; display: block; height: 6px; transform: rotate(45deg); transition: border 0.3s ease 0s; width: 6px; }
-.navbar > ul > li.current > a:after{ border-color: transparent #2c7ae7 #2c7ae7 transparent; }
-.navbar-nav li.current > a, .navbar-nav li.active > a {  color: #2c7ae7; }
+.navbar > ul > li.current > a:after{ border-color: transparent #52BB7C #52BB7C transparent; }
+.navbar-nav li.current > a, .navbar-nav li.active > a {  color: #52BB7C; }
 
 .navbar-nav ul{ position: absolute; left: -9999px; }
 .navbar ul ul li{ -webkit-transition: all .25s ease; -ms-transition: all .25s ease; transition: all .25s ease; margin-bottom: 12px; padding: 0 20px; }
@@ -117,15 +121,15 @@ header{ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); transition: all 0.5s ease 0s;
 
 }
 
-@media screen and (max-width: 1199px){ 
+@media screen and (max-width: 1199px){
  	.navbar-nav > li{ margin-left: 5px; }
 }
 
-@media screen and (max-width: 991px){ 
+@media screen and (max-width: 991px){
 
 	/* ===================================
 		Default Header style
-	====================================== */	
+	====================================== */
 
 	.navbar-header-custom{ padding: 4px 0 8px;  }
 	.menu_area .navbar-brand{ margin-top: 6px;  }
@@ -137,7 +141,7 @@ header{ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); transition: all 0.5s ease 0s;
 	.navbar-nav > li > a{ padding: 10px 20px; color: #232323;  }
 	.navbar-nav > li > a:hover{ opacity: 1;  }
 	.navbar-nav li.has-sub a:hover{ color: #232323;  }
-	.navbar ul ul li.active > a, .navbar-nav li.current > a, .navbar-nav li.active > a{ color: #2c7ae7;  }
+	.navbar ul ul li.active > a, .navbar-nav li.current > a, .navbar-nav li.active > a{ color: #52BB7C;  }
 	.navbar .sub-title { color: #232323; }
 
 	.navbar-nav{ background: #fff; -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); position: absolute; top: 71px; left: 0; width: 100%; transition-duration: 0; -ms-transition-duration: 0; -moz-transition-duration: 0; -webkit-transition-duration: 0; -o-transition-duration: 0; width: 100%; display: none; transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none; -o-transition: none;  }
