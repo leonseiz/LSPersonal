@@ -47,12 +47,22 @@ Table of contents
 
 .fa-phone {
   color: #52BB7C;
+  padding-bottom: 15px;
 }
 .fa-envelope {
   color: #52BB7C;
+  padding-bottom: 15px;
 }
 .fa-address-book {
   color: #52BB7C;
+  padding-bottom: 15px;
+}
+.notoppadding {
+  padding-top: 0px;
+}
+.onlybottompadding {
+  padding-top: 0px;
+  padding-bottom: 25px;
 }
 
 /* Aricons CSS */
